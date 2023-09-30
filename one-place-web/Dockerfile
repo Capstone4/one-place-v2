@@ -18,9 +18,9 @@ RUN apt install curl -y
 
 RUN apt install npm -y
 
-RUN npm install -g n
+#RUN npm install -g n
 
-RUN n stable
+#RUN n stable
 
 RUN PATH="$PATH"
 
